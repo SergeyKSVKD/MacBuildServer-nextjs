@@ -1,0 +1,13 @@
+.link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    color: var(--black);
+        &:hover {
+            color: var(--primary);
+        }
+}
+
+.active {
+    color: var(--primary);
+}

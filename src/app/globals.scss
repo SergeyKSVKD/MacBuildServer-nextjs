@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--white);
+    // user-select: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root {
+    /* Typography */
+    --fs_mini: 14px;
+    --fs_sm: 16px;
+    --fs_md: 24px;
+    --fs_lg: 32px;
+    --fw_light: 400;
+    --fw_normal: 600;
+    --fw_bold: 700;
+    --lh: 24px;
+  
+    /* color palette */
+    --white: rgb(255,255,255);
+    --black: rgba(0, 0, 0, 1);
+
+    --primary: rgba(255, 100, 100, 1);
+    --secondary: rgba(0, 168, 204, 1);
+    --dark: rgba(33, 36, 61, 1);
+    --light: rgba(134, 149, 164, 1);
+  }
+  
+  
+  

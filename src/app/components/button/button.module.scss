@@ -1,0 +1,12 @@
+.button {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    span {
+        line-height: 29px;
+        }
+}
